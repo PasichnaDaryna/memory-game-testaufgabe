@@ -1,7 +1,8 @@
 import React from 'react'
 import classnames from "classnames";
+import './Card.css';
 import backpic from "../../images/backpic.jpg"
-import frontpic from "../../images/image1.jpg"
+
 
 
 const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
@@ -9,23 +10,23 @@ const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
         !isFlipped && !isDisabled && onClick(index);
     };
     return (
-        <div
+        <div onClick={handleClick}
             className={classnames("card", {
-                "flipped": isFlipped,
-                "inactive": isInactive,
+                "is-flipped": isFlipped,
+                "is-inactive": isInactive,
             })}
-            onClick={handleClick}
+
         >
-            <div className="cardFace cardFontFace">
+            <div className="card-face card-font-face">
                 <img src={backpic} className="image" alt="back-pic" />
             </div>
 
-            <div className="card">
-                <div className="cardFace cardBackFace">
-                    <img src={card.image} className="image" alt="front-pic" />
-                </div>
 
+            <div className="card-face card-back-face">
+                <img src={card.image} className="image" alt="front-pic" />
             </div>
+
+
 
         </div>
     )
