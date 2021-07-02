@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory-game-testaufgabe/static/css/main.2c6a606e.chunk.css",
+    "main.js": "/memory-game-testaufgabe/static/js/main.0b36fe15.chunk.js",
+    "main.js.map": "/memory-game-testaufgabe/static/js/main.0b36fe15.chunk.js.map",
+    "runtime-main.js": "/memory-game-testaufgabe/static/js/runtime-main.8f885d88.js",
+    "runtime-main.js.map": "/memory-game-testaufgabe/static/js/runtime-main.8f885d88.js.map",
+    "static/js/2.9701029b.chunk.js": "/memory-game-testaufgabe/static/js/2.9701029b.chunk.js",
+    "static/js/2.9701029b.chunk.js.map": "/memory-game-testaufgabe/static/js/2.9701029b.chunk.js.map",
+    "static/js/3.9253cd3a.chunk.js": "/memory-game-testaufgabe/static/js/3.9253cd3a.chunk.js",
+    "static/js/3.9253cd3a.chunk.js.map": "/memory-game-testaufgabe/static/js/3.9253cd3a.chunk.js.map",
+    "index.html": "/memory-game-testaufgabe/index.html",
+    "static/css/main.2c6a606e.chunk.css.map": "/memory-game-testaufgabe/static/css/main.2c6a606e.chunk.css.map",
+    "static/js/2.9701029b.chunk.js.LICENSE.txt": "/memory-game-testaufgabe/static/js/2.9701029b.chunk.js.LICENSE.txt",
+    "static/media/backpic.aff7d196.jpg": "/memory-game-testaufgabe/static/media/backpic.aff7d196.jpg",
+    "static/media/image2.bec556a6.jpg": "/memory-game-testaufgabe/static/media/image2.bec556a6.jpg",
+    "static/media/image4.4cadf36d.jpg": "/memory-game-testaufgabe/static/media/image4.4cadf36d.jpg",
+    "static/media/image5.90466220.jpg": "/memory-game-testaufgabe/static/media/image5.90466220.jpg",
+    "static/media/image8.67d3d65f.jpg": "/memory-game-testaufgabe/static/media/image8.67d3d65f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f885d88.js",
+    "static/js/2.9701029b.chunk.js",
+    "static/css/main.2c6a606e.chunk.css",
+    "static/js/main.0b36fe15.chunk.js"
+  ]
+}
