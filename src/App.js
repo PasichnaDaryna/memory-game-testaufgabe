@@ -82,14 +82,14 @@ function App() {
     return () => {
       clearTimeout(timeout);
     };
-
+    // eslint-disable-next-line
   }, [openCards]);
 
 
   useEffect(() => {
 
     checkIfCompleted();
-
+    // eslint-disable-next-line
   }, [matchedCards]);
 
   const isFlipped = (index) => {
@@ -114,7 +114,7 @@ function App() {
 
   return (
 
-    <div>
+    <>
       <Bar
         moves={moves}
         bestScore={bestScore}
@@ -123,15 +123,15 @@ function App() {
         <Row>
           {cards.map((card, index) => {
             return (
-              <Col xs={6} md={3} lg={2}>
+              <Col key={index} xs={6} md={3} lg={2}>
                 <Card
-                  key={index}
+
                   card={card}
                   index={index}
                   isDisabled={disableAllCards}
                   isInactive={isNotActive(card)}
                   isFlipped={isFlipped(index)}
-                  onClick={handleOnCardClick} />
+                  onClick={handleOnCardClick} ></Card>
               </Col>
             )
           })}
@@ -143,7 +143,7 @@ function App() {
         modal={modal}
         moves={moves}
         handleRestart={handleRestart} />
-    </div>
+    </>
 
 
   );

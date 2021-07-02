@@ -9,6 +9,7 @@ import IMG7 from "./images/image7.jpg";
 import IMG8 from "./images/image8.jpg";
 import IMG9 from "./images/image9.jpg";
 
+
 const uniqueCardsArr = [
     {
         type: "cat3",
@@ -23,7 +24,7 @@ const uniqueCardsArr = [
         image: IMG3,
     },
     {
-        type: "bird7",
+        type: "cat7",
         image: IMG4,
     },
     {
@@ -46,6 +47,7 @@ const uniqueCardsArr = [
         type: "cat1",
         image: IMG9,
     },
+
 ];
 
 export default uniqueCardsArr;
